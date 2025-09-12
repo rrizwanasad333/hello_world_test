@@ -41,7 +41,7 @@ def load_csv(path: Path, limit: int | None = None) -> pd.DataFrame:
         df = df.head(limit)
     return df
 
-
+# test comments
 essential_charts = {"line", "bar", "scatter"}
 
 
